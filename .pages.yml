@@ -1,0 +1,84 @@
+# Konfiguration für Pages CMS (https://pagescms.org) – optionaler Editor,
+# mit dem Blogeinträge, Termine und Fotos ohne Programmierkenntnisse bearbeitet werden können.
+# Anleitung: siehe README.md, Abschnitt „Blog ohne Programmieren“.
+
+media:
+  input: assets/img/novedades
+  output: /assets/img/novedades
+
+content:
+  - name: posts
+    label: Novedades (Blog)
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, lang]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: date
+        label: Fecha
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: lang
+        label: Idioma
+        type: select
+        default: es
+        options:
+          values:
+            - { name: es, label: Español }
+            - { name: en, label: English }
+      - name: tags
+        label: Temas
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: tours, label: Tours }
+            - { name: voluntariado, label: Voluntariado }
+            - { name: ciencia, label: Ciencia }
+            - { name: comunidad, label: Comunidad }
+            - { name: vivero, label: Vivero }
+      - name: summary
+        label: Resumen (1–2 frases)
+        type: text
+      - name: image
+        label: Foto principal
+        type: image
+      - name: image_alt
+        label: Descripción de la foto
+        type: string
+      - name: body
+        label: Texto
+        type: rich-text
+
+  - name: tour_dates
+    label: Fechas de tours
+    type: file
+    path: _data/tour_dates.yml
+    format: yaml
+    fields:
+      - name: dates
+        label: Fechas
+        type: object
+        list: true
+        fields:
+          - { name: start, label: Inicio, type: date, options: { format: yyyy-MM-dd } }
+          - { name: end, label: Fin, type: date, options: { format: yyyy-MM-dd } }
+          - name: status
+            label: Estado
+            type: select
+            options:
+              values:
+                - { name: open, label: Plazas libres }
+                - { name: few, label: Últimas plazas }
+                - { name: full, label: Completo }
