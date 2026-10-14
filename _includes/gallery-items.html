@@ -1,0 +1,49 @@
+{%- comment -%}
+  Zeigt automatisch alle Fotos/Videos aus assets/galeria/ (auch Unterordner), sortiert nach
+  Dateiname absteigend – Dateinamen mit Datum beginnen (2026-10-14-...), dann steht das Neueste vorne.
+  Parameter: cat (optional, nur Unterordner, z. B. "tours"), limit (optional), placeholders (Liste für leere Galerie)
+{%- endcomment -%}
+{%- assign g_lang = page.lang | default: site.lang -%}
+{%- assign g_ui = site.data[g_lang].ui -%}
+{%- assign g_files = site.static_files | where_exp: "f", "f.path contains '/assets/galeria/'" | sort: "name" | reverse -%}
+{%- if include.cat -%}
+  {%- assign g_needle = "/assets/galeria/" | append: include.cat | append: "/" -%}
+  {%- assign g_files = g_files | where_exp: "f", "f.path contains g_needle" -%}
+{%- endif -%}
+{%- assign g_limit = include.limit | default: 1000 | plus: 0 -%}
+{%- assign g_img = ".jpg .jpeg .png .webp .gif .avif" | split: " " -%}
+{%- assign g_vid = ".mp4 .webm" | split: " " -%}
+{%- assign g_count = 0 -%}
+{%- for f in g_files -%}
+  {%- if g_count >= g_limit -%}{%- break -%}{%- endif -%}
+  {%- assign g_ext = f.extname | downcase -%}
+  {%- if g_img contains g_ext -%}{%- assign g_kind = "image" -%}
+  {%- elsif g_vid contains g_ext -%}{%- assign g_kind = "video" -%}
+  {%- else -%}{%- continue -%}{%- endif -%}
+  {%- assign g_count = g_count | plus: 1 -%}
+  {%- assign g_caption = site.data.gallery_captions[f.name][g_lang] -%}
+  {%- unless g_caption -%}{%- assign g_caption = f.basename | replace: "-", " " | replace: "_", " " -%}{%- endunless -%}
+  {%- if g_kind == "video" %}
+  <figure class="gallery__item gallery__item--video">
+    <video controls preload="metadata" playsinline src="{{ f.path | relative_url }}" aria-label="{{ g_caption | escape }}"></video>
+    <figcaption>{{ g_caption }}</figcaption>
+  </figure>
+  {%- else %}
+  <figure class="gallery__item">
+    <a href="{{ f.path | relative_url }}" data-lightbox data-caption="{{ g_caption | escape }}">
+      <img src="{{ f.path | relative_url }}" alt="{{ g_caption | escape }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ g_caption }}</figcaption>
+  </figure>
+  {%- endif -%}
+{%- endfor -%}
+{%- if g_count == 0 and include.placeholders -%}
+  {%- for ph in include.placeholders -%}
+    {%- if g_count >= g_limit -%}{%- break -%}{%- endif -%}
+    {%- if include.cat and ph.cat != include.cat -%}{%- continue -%}{%- endif -%}
+    {%- assign g_count = g_count | plus: 1 %}
+  <figure class="gallery__item">
+    {% include media.html alt=ph.caption %}
+  </figure>
+  {%- endfor -%}
+{%- endif -%}

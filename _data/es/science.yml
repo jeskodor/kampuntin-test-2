@@ -1,0 +1,111 @@
+# Página de ciencia (paraecología) – español
+
+hero:
+  eyebrow: Ciencia comunitaria
+  title: "Paraecología: investigar el bosque desde la comunidad"
+  lead: >-
+    En Maikiuants, personas de la comunidad se forman como paraecólogas y paraecólogos.
+    Unen el conocimiento shuar del bosque con métodos científicos para documentar la
+    biodiversidad y proteger su territorio.
+  image: ""
+  image_alt: Paraecólogo revisando una cámara trampa en el bosque
+
+what:
+  title: ¿Qué es un paraecólogo?
+  image: ""
+  image_alt: Paraecóloga anotando observaciones en su cuaderno de campo
+  text: |-
+    Un paraecólogo o una paraecóloga es una persona de la comunidad capacitada en métodos de
+    monitoreo ecológico. Conoce el bosque desde la infancia —los rastros, los cantos, las
+    plantas— y aprende a registrar esas observaciones de forma sistemática, para que puedan
+    compararse a lo largo de los años y compartirse con investigadores.
+
+    Así, el conocimiento se queda en la comunidad y los datos sirven para tomar decisiones
+    sobre el territorio: dónde cazar menos, qué zonas proteger, cómo cambia el río.
+
+methods:
+  title: Qué monitoreamos
+  intro: Métodos sencillos, aplicados con constancia, que cualquier persona de la comunidad puede aprender.
+  items:
+    - icon: 📷
+      title: Cámaras trampa
+      text: Cámaras automáticas en senderos y saladeros registran mamíferos grandes y difíciles de ver, como el jaguar o el tapir.
+    - icon: 🥾
+      title: Recorridos fijos
+      text: Recorridos regulares por rutas definidas para anotar huellas, excrementos, cantos y avistamientos.
+    - icon: 🐸
+      title: Aves y anfibios
+      text: Conteos de cantos al amanecer y búsquedas nocturnas de ranas, indicadores sensibles de la salud del bosque.
+    - icon: 💧
+      title: Calidad del agua
+      text: "Mediciones sencillas en ríos y quebradas: temperatura, turbidez y macroinvertebrados acuáticos."
+    - icon: 🌳
+      title: Árboles y vivero
+      text: Registro de árboles semilleros, floración y fructificación, en conexión con el vivero y la agroforestería.
+    - icon: 📖
+      title: Saber shuar
+      text: Nombres en shuar chicham, usos y relatos sobre plantas y animales, documentados solo con el consentimiento de quienes los comparten.
+
+animals:
+  title: Los animales con quienes convivimos
+  intro: >-
+    La selva y los ríos de Maikiuants son el hogar de muchísimos animales. Algunos están
+    amenazados, otros son nuevos para la ciencia y muchos viven escondidos bajo el agua.
+
+  threatened:
+    title: Especies amenazadas
+    intro: >-
+      Algunas de las especies registradas o esperadas en la zona están amenazadas a nivel
+      mundial. Su presencia muestra el valor de este bosque y la responsabilidad de protegerlo.
+    note: >-
+      Categorías según la Lista Roja de la UICN. Lista de ejemplo: se reemplazará por los
+      registros reales del monitoreo.
+    sensitive: Para protegerlas, no publicamos ubicaciones exactas de especies sensibles.
+
+  # PLATZHALTER – Name, Foto und Geschichte der neu entdeckten Froschart
+  frog:
+    title: Una nueva especie de rana
+    name: "[Nombre científico de la rana]"
+    image: ""
+    image_alt: La nueva especie de rana descubierta en Maikiuants
+    text: |-
+      En [año], durante el monitoreo nocturno, los paraecólogos encontraron una rana que no
+      coincidía con ninguna especie conocida. Junto con [universidad / investigadores] se
+      confirmó: es una **especie nueva para la ciencia**.
+
+      [Aquí se contará cómo se descubrió, dónde vive, qué la hace especial y qué significa su
+      nombre.]
+
+  river:
+    title: "Vida bajo el agua: los animales de nuestros ríos"
+    text: >-
+      En los ríos y quebradas viven pequeños animales acuáticos —larvas de insectos, caracoles,
+      cangrejos y camarones— que casi nadie ve. Los paraecólogos los recolectan, los identifican y
+      los fotografían. Como reaccionan rápido a la contaminación, nos dicen mucho sobre la salud
+      del agua.
+    groups:
+      - { name: Efímeras, latin: Ephemeroptera, image: "" }
+      - { name: Plecópteros, latin: Plecoptera, image: "" }
+      - { name: Tricópteros, latin: Trichoptera, image: "" }
+      - { name: Libélulas, latin: Odonata, image: "" }
+      - { name: Cangrejos y camarones de río, latin: Decapoda, image: "" }
+      - { name: Caracoles de agua dulce, latin: Gastropoda, image: "" }
+
+# PLATZHALTER – Inhalte zum Buch folgen
+book:
+  eyebrow: Nuestro libro
+  title: "[Título del libro]"
+  cover: ""            # p. ej. /assets/img/fotos/libro-portada.jpg
+  cover_alt: Portada del libro sobre los animales acuáticos de Maikiuants
+  text: |-
+    Durante [X] años, los paraecólogos de Maikiuants recolectaron y fotografiaron los animales
+    que viven en nuestros ríos. El resultado es este libro: una guía ilustrada con [número]
+    especies, sus nombres en shuar chicham y en español, y lo que nos cuentan sobre el agua.
+
+    [Más información sobre el contenido, los autores y para quién está pensado el libro.]
+  details:
+    - { label: Autores, value: "[Nombres]" }
+    - { label: Año, value: "[Año]" }
+    - { label: Idiomas, value: "[Shuar chicham, español]" }
+    - { label: Páginas, value: "[XXX]" }
+  button: { label: Cómo conseguir el libro, url: "" }   # url leer = Kontaktseite

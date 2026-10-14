@@ -1,0 +1,111 @@
+# Science page (para-ecology) – English
+
+hero:
+  eyebrow: Community science
+  title: "Para-ecology: researching the forest from within the community"
+  lead: >-
+    In Maikiuants, community members train as para-ecologists. They combine Shuar knowledge
+    of the forest with scientific methods to document biodiversity and protect their
+    territory.
+  image: ""
+  image_alt: Para-ecologist checking a camera trap in the forest
+
+what:
+  title: What is a para-ecologist?
+  image: ""
+  image_alt: Para-ecologist writing observations in a field notebook
+  text: |-
+    A para-ecologist is a community member trained in ecological monitoring methods. They have
+    known the forest since childhood — the tracks, the calls, the plants — and learn to record
+    these observations systematically, so they can be compared over the years and shared with
+    researchers.
+
+    This way, knowledge stays in the community, and the data help to make decisions about the
+    territory: where to hunt less, which areas to protect, how the river is changing.
+
+methods:
+  title: What we monitor
+  intro: Simple methods, applied consistently, that anyone in the community can learn.
+  items:
+    - icon: 📷
+      title: Camera traps
+      text: Automatic cameras on trails and at salt licks record large, elusive mammals such as jaguars and tapirs.
+    - icon: 🥾
+      title: Fixed transects
+      text: Regular walks along defined routes to record tracks, droppings, calls and sightings.
+    - icon: 🐸
+      title: Birds and amphibians
+      text: Dawn call counts and night searches for frogs, sensitive indicators of forest health.
+    - icon: 💧
+      title: Water quality
+      text: "Simple measurements in rivers and streams: temperature, turbidity and aquatic macroinvertebrates."
+    - icon: 🌳
+      title: Trees and nursery
+      text: Recording seed trees, flowering and fruiting, linked to the plant nursery and agroforestry.
+    - icon: 📖
+      title: Shuar knowledge
+      text: Shuar Chicham names, uses and stories about plants and animals, documented only with the consent of those who share them.
+
+animals:
+  title: Our animal neighbours
+  intro: >-
+    The forest and rivers of Maikiuants are home to countless animals. Some are threatened,
+    some are new to science, and many live hidden under water.
+
+  threatened:
+    title: Threatened species
+    intro: >-
+      Some of the species recorded or expected in the area are threatened worldwide. Their
+      presence shows the value of this forest and our responsibility to protect it.
+    note: >-
+      Categories according to the IUCN Red List. Example list: to be replaced with the actual
+      monitoring records.
+    sensitive: To protect them, we never publish exact locations of sensitive species.
+
+  # PLACEHOLDER – name, photo and story of the newly discovered frog species
+  frog:
+    title: A new frog species
+    name: "[Scientific name of the frog]"
+    image: ""
+    image_alt: The new frog species discovered in Maikiuants
+    text: |-
+      In [year], during night-time monitoring, the para-ecologists found a frog that did not match
+      any known species. Together with [university / researchers] it was confirmed: it is a
+      **species new to science**.
+
+      [Here we will tell how it was discovered, where it lives, what makes it special and what
+      its name means.]
+
+  river:
+    title: "Life under water: the animals of our rivers"
+    text: >-
+      Rivers and streams are home to small aquatic animals — insect larvae, snails, crabs and
+      shrimps — that hardly anyone ever sees. The para-ecologists collect, identify and
+      photograph them. Because they react quickly to pollution, they tell us a lot about the
+      health of the water.
+    groups:
+      - { name: Mayflies, latin: Ephemeroptera, image: "" }
+      - { name: Stoneflies, latin: Plecoptera, image: "" }
+      - { name: Caddisflies, latin: Trichoptera, image: "" }
+      - { name: Dragonflies, latin: Odonata, image: "" }
+      - { name: River crabs and shrimps, latin: Decapoda, image: "" }
+      - { name: Freshwater snails, latin: Gastropoda, image: "" }
+
+# PLACEHOLDER – book details to follow
+book:
+  eyebrow: Our book
+  title: "[Book title]"
+  cover: ""            # e.g. /assets/img/fotos/libro-portada.jpg
+  cover_alt: Cover of the book about the aquatic animals of Maikiuants
+  text: |-
+    Over [X] years, the para-ecologists of Maikiuants collected and photographed the animals
+    that live in our rivers. The result is this book: an illustrated guide with [number] species,
+    their names in Shuar Chicham and Spanish, and what they tell us about the water.
+
+    [More about the content, the authors and who the book is for.]
+  details:
+    - { label: Authors, value: "[Names]" }
+    - { label: Year, value: "[Year]" }
+    - { label: Languages, value: "[Shuar Chicham, Spanish]" }
+    - { label: Pages, value: "[XXX]" }
+  button: { label: How to get the book, url: "" }   # empty url = contact page

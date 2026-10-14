@@ -1,0 +1,89 @@
+# Textos generales de la interfaz (menú, botones, pie de página) – español
+lang_name: Español
+locale: es_EC
+skip: Saltar al contenido
+menu: Menú
+switch_label: Read this page in English
+
+nav:
+  home: Inicio
+  science: Ciencia
+  tours: Tours
+  volunteering: Voluntariado
+  updates: Novedades
+  gallery: Galería
+  people: Equipo
+  contact: Contacto
+  legal: Aviso legal y privacidad
+
+months: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+
+lang_labels:
+  es: Español
+  en: Inglés
+
+read_more: Leer más
+all_updates: Ver todas las novedades
+back_to_updates: Volver a las novedades
+latest_updates: Últimas novedades
+no_updates: Todavía no hay novedades publicadas.
+written_in: Escrito en
+
+tags:
+  tours: Tours
+  voluntariado: Voluntariado
+  ciencia: Ciencia
+  comunidad: Comunidad
+  vivero: Vivero
+
+gallery_cats:
+  tours: Tours
+  voluntariado: Voluntariado
+  comunidad: Comunidad
+  naturaleza: Naturaleza
+  videos: Videos
+
+tour_status:
+  open: Plazas libres
+  few: Últimas plazas
+  full: Completo
+
+read_story: Leer la experiencia completa
+read_less: Mostrar menos
+
+photo: Foto
+video: Video
+close: Cerrar
+previous: Anterior
+next: Siguiente
+
+embed:
+  load: Cargar contenido
+  notice: "Al cargar este contenido se transmiten datos a %platform%."
+  instagram: Ver publicación de Instagram
+  facebook: Ver publicación de Facebook
+  facebook_timeline: Mostrar nuestra página de Facebook
+  youtube: Reproducir video
+
+cta:
+  title: ¿Te gustaría conocer Maikiuants?
+  text: Escríbenos con tus preguntas. Respondemos personalmente a cada mensaje.
+  button: Escribir un mensaje
+
+footer:
+  tagline: Tours, voluntariado y ciencia comunitaria con la comunidad shuar de Maikiuants, en la Amazonía ecuatoriana.
+  explore: Explorar
+  contact: Contacto
+  follow: Síguenos
+
+iucn:
+  CR: En peligro crítico
+  EN: En peligro
+  VU: Vulnerable
+  NT: Casi amenazado
+  LC: Preocupación menor
+
+not_found:
+  title: Página no encontrada
+  text: Parece que este sendero no lleva a ninguna parte.
+  button: Volver al inicio

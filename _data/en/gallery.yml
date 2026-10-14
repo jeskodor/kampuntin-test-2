@@ -1,0 +1,19 @@
+# Gallery page – English
+# Photos appear automatically: upload them to assets/galeria/<category>/
+hero:
+  eyebrow: Gallery
+  title: Photos and videos
+  lead: Moments from past tours, volunteering, community life and the forest.
+empty_note: >-
+  Photos will appear here as soon as they are uploaded to the assets/galeria folder. For now,
+  placeholders are shown.
+consent: Everyone shown in these photos has given their consent.
+placeholders:
+  - { cat: tours, caption: Group of visitors crossing the river }
+  - { cat: comunidad, caption: Children playing in front of the jea }
+  - { cat: naturaleza, caption: Mist over the rainforest at dawn }
+  - { cat: voluntariado, caption: Seedlings in the plant nursery }
+  - { cat: tours, caption: Pottery workshop with the women of the community }
+  - { cat: naturaleza, caption: Glass frog on a leaf }
+  - { cat: voluntariado, caption: Building a new leaf roof }
+  - { cat: comunidad, caption: Music and songs on the farewell night }

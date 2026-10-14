@@ -1,0 +1,60 @@
+# Contact page – English
+hero:
+  eyebrow: Contact
+  title: Write to us
+  lead: >-
+    Questions about tours, volunteering or a research collaboration? We answer personally,
+    usually within a few days. Signal is limited in the rainforest, so please be patient.
+form:
+  title: Send a message
+  name: Name
+  email: Email
+  topic: Topic
+  topics:          # value = interner Schlüssel (nicht ändern), label = angezeigter Text
+    - { value: tour, label: Tour }
+    - { value: voluntariado, label: Volunteering }
+    - { value: investigacion, label: Research }
+    - { value: otro, label: Other }
+  dates: Dates you are interested in (optional)
+  message: Message
+  consent: I agree that my data will be used to reply to my message.
+  send: Send
+  mailto_note: Sending opens your email program with the message prepared.
+  sent: Thank you. We will reply as soon as possible.
+direct:
+  title: Direct contact
+  email: Email
+  whatsapp: WhatsApp
+  phone: Phone
+location:
+  title: Where we are
+  text: >-
+    Maikiuants is located in the province of Morona Santiago in Ecuador's southern Amazon,
+    about two and a half hours from [nearest town]. We will send you detailed directions once
+    your trip is confirmed.
+  map_link: View on OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: How long does it take you to reply?
+      a: >-
+        Usually a few days. Signal is limited in the rainforest, so sometimes it takes a little
+        longer. WhatsApp is often faster.
+    - q: Which languages can I write in?
+      a: Spanish or English. [Add other languages if available.]
+    - q: How do I get to Maikiuants?
+      a: >-
+        From Quito or Cuenca by bus to [nearest town], then about two and a half hours to the
+        community. For tours and volunteering we organise the last stretch with you.
+    - q: Can I visit Maikiuants without joining a tour?
+      a: >-
+        Visits are always agreed with the community beforehand. Write to us and we'll see what is
+        possible.
+    - q: Can I change or cancel a booking?
+      a: "[Add the change and cancellation terms.]"
+    - q: How can I support you without travelling?
+      a: >-
+        By sharing our updates, buying our book, or helping with translation, photography or
+        social media. [State whether there is a way to donate.]

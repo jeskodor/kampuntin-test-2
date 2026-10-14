@@ -1,0 +1,139 @@
+# Página de tours – español
+# Los datos entre [corchetes] son marcadores: reemplazar por la información real.
+
+hero:
+  eyebrow: Tours · 10 días · máx. 12 personas
+  title: Diez días en la selva, como parte de la comunidad
+  lead: >-
+    Nuestros tours no son un espectáculo: compartes la vida diaria de Maikiuants, caminas por el
+    bosque con guías shuar, trabajas en la huerta, cocinas, escuchas historias y descubres
+    otro ritmo de vida.
+  image: ""
+  image_alt: Grupo de visitantes caminando por un sendero de la selva con un guía shuar
+
+facts:
+  - { value: "10", label: días en la selva }
+  - { value: "12", label: personas como máximo }
+  - { value: Jea, label: alojamiento tradicional }
+  - { value: Juntos, label: comidas compartidas }
+  - { value: Shuar, label: guías de la comunidad }
+
+intro:
+  title: Viajar despacio, convivir de verdad
+  image: ""
+  image_alt: Visitantes y familias de la comunidad cocinando juntos
+  text: |-
+    Durante diez días vives en Maikiuants, a unas dos horas y media de los servicios más
+    cercanos. Dormimos en una jea tradicional, nos bañamos en el río y comemos juntos. Los días
+    combinan caminatas por el bosque, trabajo en el vivero y la huerta, artesanía, cocina y
+    tiempo libre.
+
+    Los grupos son pequeños —**como máximo 12 personas**— para que el encuentro sea personal
+    y la comunidad pueda recibirte sin cambiar su forma de vivir.
+
+itinerary:
+  title: Así puede ser tu tour
+  note: El programa es orientativo. El clima, el río y la vida de la comunidad marcan el ritmo.
+  days:
+    - title: Llegada
+      text: Encuentro en [ciudad de encuentro], viaje de unas 2,5 horas hasta Maikiuants y bienvenida de la comunidad.
+    - title: Conocer la comunidad
+      text: Recorrido por Maikiuants, la escuela y las huertas familiares (aja). Por la tarde, primer baño en el río.
+    - title: El bosque que cura
+      text: Caminata con un guía shuar. Plantas medicinales, árboles útiles y cómo leer los rastros de los animales.
+    - title: Manos a la tierra
+      text: Mañana en el vivero y en las parcelas agroforestales. Tarde libre para descansar o jugar con los niños.
+    - title: Arcilla y fibras
+      text: Cerámica con las mujeres de la comunidad y elaboración de artesanías con materiales del bosque.
+    - title: Excursión
+      text: Día completo hacia [cascada / mirador], con almuerzo envuelto en hojas en medio del bosque.
+    - title: Ciencia en el bosque
+      text: Con los paraecólogos, revisamos cámaras trampa y aprendemos cómo se monitorea la fauna.
+    - title: Cocina shuar
+      text: Preparamos platos tradicionales como el ayampaco y la chicha de yuca. Por la noche, música.
+    - title: Minga
+      text: Trabajo comunitario junto a las familias y fiesta de despedida con música y cantos.
+    - title: Regreso
+      text: Último desayuno juntos, despedida y viaje de regreso a [ciudad de encuentro].
+
+included:
+  title: Incluido
+  items:
+    - Alojamiento en la jea (literas o hamaca)
+    - Todas las comidas durante los 10 días
+    - Transporte desde y hasta [ciudad de encuentro]
+    - Guías de la comunidad y todas las actividades del programa
+    - Un aporte directo a los proyectos de Maikiuants
+
+not_included:
+  title: No incluido
+  items:
+    - Vuelos y viaje hasta [ciudad de encuentro]
+    - Seguro de viaje con cobertura médica (obligatorio)
+    - Vacunas y medicamentos personales
+    - Gastos personales y artesanías
+
+packing:
+  title: Qué llevar
+  items:
+    - Botas de caucho (también se pueden comprar en [ciudad])
+    - Ropa ligera de manga larga y una muda seca
+    - Chaqueta impermeable o poncho de lluvia
+    - Linterna frontal
+    - Repelente y jabón biodegradables (nos bañamos en el río)
+    - Botella reutilizable y toalla de secado rápido
+
+price:
+  title: Precio
+  amount: "[XXX] USD"
+  per: por persona, 10 días
+  text: >-
+    El precio cubre alojamiento, comidas, transporte local, guías y un aporte fijo a los
+    proyectos de la comunidad. [Indicar condiciones de pago y cancelación.]
+
+dates:
+  title: Próximas fechas
+  intro: Grupos de máximo 12 personas. ¿Ninguna fecha te queda bien? Escríbenos.
+  empty: Las próximas fechas se publicarán pronto.
+  button: Reservar plaza
+
+booking:
+  title: Cómo reservar
+  steps:
+    - title: Escríbenos
+      text: Cuéntanos quién eres, cuántas personas vienen y qué fechas te interesan.
+    - title: Conversamos
+      text: Una breve llamada para resolver dudas y ver si el tour es para ti.
+    - title: Reserva
+      text: Confirmamos tu plaza con un anticipo de [XX] %.
+    - title: Prepárate
+      text: Te enviamos la guía de viaje con lista de equipaje e información de salud.
+
+past:
+  title: Tours pasados
+  intro: Algunos momentos de grupos anteriores.
+  link: Ver toda la galería
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - q: ¿Necesito una buena condición física?
+      a: >-
+        Basta una condición física normal. Caminamos por senderos con barro, subidas y cruces de
+        río. Si tienes alguna limitación, avísanos y buscamos alternativas.
+    - q: ¿Hay electricidad, señal de teléfono e internet?
+      a: >-
+        Un panel solar abastece la cocina. La señal de teléfono e internet es limitada o
+        inexistente: una buena oportunidad para desconectarse.
+    - q: ¿Qué idiomas se hablan?
+      a: >-
+        En la comunidad se habla shuar chicham y español. [Indicar si el equipo de Kampuntin
+        acompaña en inglés u otros idiomas.]
+    - q: ¿Cuál es la mejor época para viajar?
+      a: >-
+        La selva es húmeda todo el año. [Indicar los meses recomendados y la temporada de
+        lluvias.]
+    - q: ¿Es seguro?
+      a: >-
+        Viajamos en grupos pequeños y siempre acompañados por personas de la comunidad que
+        conocen el bosque. [Describir botiquín, comunicación de emergencia y plan de evacuación.]

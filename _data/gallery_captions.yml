@@ -1,0 +1,8 @@
+# Optionale Bildunterschriften für die Galerie, nach Dateiname.
+# Ohne Eintrag wird der Dateiname als Bildunterschrift verwendet
+# (z. B. "bano-en-el-rio.jpg" -> "bano en el rio").
+#
+# Beispiel:
+# "2026-10-rio.jpg":
+#   es: Baño en el río después de la minga
+#   en: River bath after the minga

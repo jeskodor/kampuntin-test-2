@@ -1,0 +1,137 @@
+# Tours page – English
+# Text in [square brackets] is a placeholder: replace with the real information.
+
+hero:
+  eyebrow: Tours · 10 days · max. 12 people
+  title: Ten days in the rainforest, as part of the community
+  lead: >-
+    Our tours are not a show: you share daily life in Maikiuants, walk through the forest with
+    Shuar guides, work in the gardens, cook, listen to stories and discover a different rhythm
+    of life.
+  image: ""
+  image_alt: Group of visitors walking along a rainforest trail with a Shuar guide
+
+facts:
+  - { value: "10", label: days in the rainforest }
+  - { value: "12", label: people at most }
+  - { value: Jea, label: traditional accommodation }
+  - { value: Together, label: shared meals }
+  - { value: Shuar, label: community guides }
+
+intro:
+  title: Travel slowly, truly live together
+  image: ""
+  image_alt: Visitors and community families cooking together
+  text: |-
+    For ten days you live in Maikiuants, about two and a half hours from the nearest
+    amenities. We sleep in a traditional jea, bathe in the river and eat together. The days
+    combine forest walks, work in the nursery and gardens, crafts, cooking and free time.
+
+    Groups are small — **twelve people at most** — so that encounters stay personal and the
+    community can welcome you without changing its way of life.
+
+itinerary:
+  title: What your tour could look like
+  note: This programme is a guide. Weather, the river and community life set the pace.
+  days:
+    - title: Arrival
+      text: Meet in [meeting town], travel about 2.5 hours to Maikiuants and get welcomed by the community.
+    - title: Getting to know the community
+      text: A walk through Maikiuants, the school and the family gardens (aja). In the afternoon, your first river bath.
+    - title: The healing forest
+      text: Forest walk with a Shuar guide. Medicinal plants, useful trees and how to read animal tracks.
+    - title: Hands in the soil
+      text: Morning in the plant nursery and agroforestry plots. Free afternoon to rest or play with the children.
+    - title: Clay and fibres
+      text: Pottery with the women of the community and crafts made from forest materials.
+    - title: Excursion
+      text: Full-day trip to [waterfall / viewpoint], with a leaf-wrapped lunch in the middle of the forest.
+    - title: Science in the forest
+      text: With the para-ecologists, we check camera traps and learn how wildlife is monitored.
+    - title: Shuar cooking
+      text: We prepare traditional dishes such as ayampaco and cassava chicha. Music in the evening.
+    - title: Minga
+      text: Communal work together with the families, followed by a farewell celebration with music and songs.
+    - title: Departure
+      text: Last breakfast together, goodbyes and the journey back to [meeting town].
+
+included:
+  title: Included
+  items:
+    - Accommodation in the jea (bunk beds or hammock)
+    - All meals for 10 days
+    - Transport from and to [meeting town]
+    - Community guides and all programme activities
+    - A direct contribution to Maikiuants' projects
+
+not_included:
+  title: Not included
+  items:
+    - Flights and travel to [meeting town]
+    - Travel insurance with medical cover (required)
+    - Vaccinations and personal medication
+    - Personal expenses and handicrafts
+
+packing:
+  title: What to bring
+  items:
+    - Rubber boots (also available in [town])
+    - Light long-sleeved clothes and a dry change of clothes
+    - Rain jacket or poncho
+    - Head torch
+    - Biodegradable repellent and soap (we bathe in the river)
+    - Reusable water bottle and quick-dry towel
+
+price:
+  title: Price
+  amount: "[XXX] USD"
+  per: per person, 10 days
+  text: >-
+    The price covers accommodation, meals, local transport, guides and a fixed contribution to
+    the community's projects. [Add payment and cancellation terms.]
+
+dates:
+  title: Upcoming dates
+  intro: Groups of up to 12 people. None of the dates work for you? Get in touch.
+  empty: Upcoming dates will be published soon.
+  button: Book a place
+
+booking:
+  title: How to book
+  steps:
+    - title: Write to us
+      text: Tell us who you are, how many people are coming and which dates you are interested in.
+    - title: Let's talk
+      text: A short call to answer your questions and see whether the tour is right for you.
+    - title: Booking
+      text: We confirm your place with a [XX] % deposit.
+    - title: Get ready
+      text: We send you our travel guide with packing list and health information.
+
+past:
+  title: Past tours
+  intro: A few moments from previous groups.
+  link: See the full gallery
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: Do I need to be very fit?
+      a: >-
+        Normal fitness is enough. We walk on muddy trails with climbs and river crossings. If you
+        have any limitations, let us know and we will find alternatives.
+    - q: Is there electricity, phone signal and internet?
+      a: >-
+        A solar panel powers the kitchen. Phone signal and internet are limited or non-existent —
+        a good chance to disconnect.
+    - q: Which languages are spoken?
+      a: >-
+        The community speaks Shuar Chicham and Spanish. [State whether the Kampuntin team
+        accompanies groups in English or other languages.]
+    - q: When is the best time to travel?
+      a: >-
+        The rainforest is humid all year round. [Add recommended months and the rainy season.]
+    - q: Is it safe?
+      a: >-
+        We travel in small groups, always accompanied by community members who know the forest.
+        [Describe first-aid kit, emergency communication and evacuation plan.]

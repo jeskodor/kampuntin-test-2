@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign ui = site.data[lang].ui -%}
+{%- assign updates_page = site.pages | where: "ref", "updates" | where: "lang", lang | first -%}
+{%- assign cover_alt = page.image_alt | default: page.title -%}
+{%- capture fixed_src -%}src="{{ site.baseurl }}/assets/{%- endcapture -%}
+<article class="post">
+  <div class="page-hero page-hero--post">
+    <div class="container narrow page-hero__inner">
+      <p class="eyebrow"><a href="{{ updates_page.url | relative_url }}">← {{ ui.back_to_updates }}</a></p>
+      <h1>{{ page.title }}</h1>
+      <p class="meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
+        {%- if page.author %} · {{ page.author }}{% endif %}
+      </p>
+    </div>
+  </div>
+  <div class="container narrow post__body prose">
+    {%- if page.image and page.image != "" %}
+    <figure class="post__cover">{% include media.html src=page.image alt=cover_alt %}</figure>
+    {%- endif %}
+    {{ content | replace: 'src="/assets/', fixed_src }}
+    {%- if page.tags.size > 0 %}
+    <ul class="tags">{% for tag in page.tags %}<li>{{ ui.tags[tag] | default: tag }}</li>{% endfor %}</ul>
+    {%- endif %}
+    <p><a class="btn ghost-dark" href="{{ updates_page.url | relative_url }}">← {{ ui.back_to_updates }}</a></p>
+  </div>
+</article>

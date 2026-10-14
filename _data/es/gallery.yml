@@ -1,0 +1,20 @@
+# Página de galería – español
+# Las fotos se muestran automáticamente: súbelas a assets/galeria/<categoría>/
+hero:
+  eyebrow: Galería
+  title: Fotos y videos
+  lead: Momentos de tours pasados, del voluntariado, de la vida en la comunidad y del bosque.
+empty_note: >-
+  Aquí aparecerán las fotos en cuanto se suban a la carpeta assets/galeria. Por ahora se
+  muestran marcadores de posición.
+consent: Todas las personas que aparecen en las fotos han dado su consentimiento.
+# Marcadores que se muestran mientras no haya fotos
+placeholders:
+  - { cat: tours, caption: Grupo de visitantes cruzando el río }
+  - { cat: comunidad, caption: Niños jugando frente a la jea }
+  - { cat: naturaleza, caption: Neblina sobre la selva al amanecer }
+  - { cat: voluntariado, caption: Plántulas en el vivero }
+  - { cat: tours, caption: Taller de cerámica con las mujeres de la comunidad }
+  - { cat: naturaleza, caption: Rana de cristal sobre una hoja }
+  - { cat: voluntariado, caption: Construcción de un nuevo techo de hojas }
+  - { cat: comunidad, caption: Música y cantos en la noche de despedida }

@@ -1,0 +1,29 @@
+# Aviso legal y privacidad – español
+# MARCADOR: el contenido debe ser revisado por una persona experta en derecho.
+title: Aviso legal y privacidad
+sections:
+  - title: Responsable
+    text: |-
+      [Nombre de la organización Kampuntin]
+      [Dirección]
+      [Ciudad, país]
+      Correo: [correo]
+  - title: Alojamiento web
+    text: >-
+      Este sitio está alojado en GitHub Pages (GitHub Inc., EE. UU.). Al visitarlo, GitHub
+      procesa datos técnicos como tu dirección IP para entregar las páginas y garantizar la
+      seguridad. Más información en la declaración de privacidad de GitHub.
+  - title: Cookies y servicios externos
+    text: >-
+      Este sitio no usa cookies ni herramientas de análisis. Los contenidos de YouTube, Instagram
+      y Facebook solo se cargan cuando haces clic en ellos; a partir de ese momento se
+      transmiten datos a esas plataformas.
+  - title: Formulario de contacto
+    text: >-
+      Los datos que nos envías por correo o mediante el formulario se usan únicamente para
+      responder a tu consulta y no se comparten con terceros. [Si se usa un servicio de
+      formularios, nombrarlo aquí.]
+  - title: Tus derechos
+    text: >-
+      Puedes solicitar en cualquier momento información sobre tus datos, su corrección o su
+      eliminación escribiendo a [correo].

@@ -1,0 +1,162 @@
+# Volunteering page – English (based on the WWOOF profile)
+# Text in [square brackets] is a placeholder: replace with the real information.
+
+hero:
+  eyebrow: Volunteering · Agroforestry · Community life
+  title: Volunteering in Maikiuants
+  lead: >-
+    We're looking for people who like to live together and in places far from the city. To come
+    here, you have to be able to get out of your comfort zone. In return, living in an
+    Indigenous community in the Amazon is a great learning experience.
+  image: ""
+  image_alt: Volunteers planting trees in an agroforestry plot
+
+who:
+  title: Who are we looking for?
+  intro: We're two and a half hours from the nearest amenities. You'll feel at home here if you…
+  items:
+    - enjoy being proactive and taking the initiative,
+    - like working in the field, rain or shine,
+    - want to learn about plants, agroforestry and permaculture,
+    - enjoy living in a group and sharing tasks,
+    - are open-minded, respectful and flexible.
+
+tasks:
+  title: How you'll help
+  intro: We are mainly looking for people to support these tasks.
+  items:
+    - icon: 🌱
+      title: Plant nursery
+      text: "Taking care of the nursery: preparing seeds, transplanting seedlings and watering."
+    - icon: 🌳
+      title: Planting
+      text: Planting trees and crops on the community's plots.
+    - icon: 🍌
+      title: Agroforestry
+      text: Maintaining the agroforestry crops by weeding, pruning and harvesting.
+    - icon: 🔨
+      title: Construction
+      text: Helping with construction work and infrastructure improvements.
+
+life:
+  title: Life in the jea
+  text: |-
+    We sleep in a traditional house called a **jea**, in the middle of the jungle. There are
+    bunk beds on three levels and the possibility of hanging a hammock. The shower is the best
+    in the world: a pure river with fresh water.
+
+    A well-equipped kitchen is available for cooking. A solar panel supplies it with
+    electricity, and there is a blender and a juice extractor. In the future, we plan to install
+    a small fridge for food storage. Meals are usually shared with the other volunteers.
+  # 6 photos showing how you'll live here (add a path, e.g. /assets/img/fotos/jea.jpg)
+  photos:
+    - { image: "", alt: The traditional jea in the middle of the rainforest }
+    - { image: "", alt: Three-level bunk beds and hammocks inside the jea }
+    - { image: "", alt: The river where we bathe every day }
+    - { image: "", alt: The solar-powered kitchen }
+    - { image: "", alt: A shared meal with the volunteers }
+    - { image: "", alt: The plant nursery next to the house }
+
+free_time:
+  title: Free time
+  text: >-
+    In your free time, you can make the most of the area: we can take you on beautiful walks,
+    you can play with the children, take part in pottery-making with the women, make crafts,
+    play music and sing.
+  quote: It's a place of creativity and freedom where anything is possible.
+
+practical:
+  title: Practical information
+  items:
+    - { label: Minimum stay, value: "[2 weeks]" }
+    - { label: Working hours, value: "[5 hours a day, 5 days a week]" }
+    - { label: Food contribution, value: "[XX USD per week]" }
+    - { label: Languages, value: "Spanish (basic Spanish helps a lot), Shuar Chicham" }
+    - { label: Arrival, value: "[Meeting town], then 2.5 h to the community" }
+  wwoof: Find us on WWOOF too
+
+apply:
+  title: How to apply
+  steps:
+    - title: Introduce yourself
+      text: Tell us who you are, what motivates you and when you would like to come.
+    - title: Video call
+      text: We talk for a while to get to know each other and clarify expectations.
+    - title: Confirmation
+      text: We agree on dates and send you a preparation guide.
+    - title: Welcome!
+      text: We pick you up in [meeting town] and travel to Maikiuants together.
+  button: I want to volunteer
+
+# PLACEHOLDER – add real testimonials (with consent)
+testimonials:
+  title: Volunteer experiences
+  intro: What people who have already spent time in Maikiuants say.
+  # quote = short quote (always visible) · text = full story to expand (optional, any length)
+  items:
+    - quote: >-
+        I came to help in the nursery and left having learned so much more — about plants, about
+        the community and about myself. Bathing in the river every morning is priceless.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        I came for three weeks and stayed two months. At first everything was new: sleeping in the
+        jea, cooking for everyone, getting used to the rhythm of the community. Little by little the
+        nursery became my favourite place.
+
+        [The full story can go here: how the arrival was, what you learned, a moment you'll never
+        forget and what you'd tell someone thinking about coming.]
+    - quote: >-
+        The first nights in the jea felt strange; after that I didn't want to leave. The best
+        part were the afternoons with the children and the walks at sunset.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        [Full story from the volunteer: the first days, life with the families, the forest walks
+        and what they took home from Maikiuants.]
+    - quote: >-
+        It's real work, with mud and rain. But watching the trees we planted grow and sharing
+        meals with everyone makes it all worth it.
+      name: "[Name]"
+      meta: "Volunteer · [country] · [year]"
+      photo: ""
+      text: |-
+        [Full story from the volunteer: work on the agroforestry plots, the minga, living with the
+        other volunteers and what it meant to them.]
+
+faq:
+  title: Frequently asked questions
+  items:
+    - q: How long can I stay?
+      a: >-
+        The minimum stay is [2 weeks]. Longer stays are very welcome, up to [X months].
+    - q: How much does volunteering cost?
+      a: >-
+        We ask for a contribution of [XX USD per week] for food. Accommodation in the jea is in
+        exchange for your work.
+    - q: Do I need experience in farming or construction?
+      a: >-
+        No. What matters is the willingness to learn and to work. We'll teach you everything
+        you need on site.
+    - q: Do I need to speak Spanish?
+      a: >-
+        Basic Spanish helps a lot when living with the community. [State whether someone on the
+        team speaks English.]
+    - q: What does a typical day look like?
+      a: >-
+        In the morning, when it's cooler, we work in the nursery, the plots or on construction.
+        After a shared lunch, afternoons are usually free: river, walks, crafts or time with the
+        children.
+    - q: Is there internet and electricity?
+      a: >-
+        A solar panel powers the kitchen. Phone signal and internet are limited: [state where
+        the nearest signal is].
+    - q: Which vaccinations and insurance do I need?
+      a: >-
+        Travel insurance with medical cover is required. Talk to a travel doctor; for the Amazon,
+        the yellow fever vaccination is usually recommended.
+    - q: Can I come with my partner or friends?
+      a: >-
+        Yes, just write to us early. We can host [X] volunteers at the same time.

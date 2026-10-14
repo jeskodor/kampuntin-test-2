@@ -1,0 +1,29 @@
+# Geschützte Arten auf der Seite „Ciencia / Science“
+# status: CR = vom Aussterben bedroht, EN = stark gefährdet, VU = gefährdet, NT = potenziell gefährdet
+# BEISPIEL-LISTE – bitte durch die tatsächlich nachgewiesenen Arten ersetzen.
+# image: optional, z. B. /assets/img/fotos/jaguar.jpg
+
+- latin: Panthera onca
+  name: { es: Jaguar, en: Jaguar }
+  status: NT
+  image: ""
+- latin: Tapirus terrestris
+  name: { es: Tapir amazónico, en: Lowland tapir }
+  status: VU
+  image: ""
+- latin: Ateles belzebuth
+  name: { es: Mono araña de vientre blanco, en: White-bellied spider monkey }
+  status: EN
+  image: ""
+- latin: Priodontes maximus
+  name: { es: Armadillo gigante, en: Giant armadillo }
+  status: VU
+  image: ""
+- latin: Harpia harpyja
+  name: { es: Águila harpía, en: Harpy eagle }
+  status: VU
+  image: ""
+- latin: Chelonoidis denticulatus
+  name: { es: Tortuga motelo, en: Yellow-footed tortoise }
+  status: VU
+  image: ""

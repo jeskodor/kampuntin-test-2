@@ -1,0 +1,4 @@
+Fotos (JPG/PNG/WebP) oder kurze Videos (MP4) hier hochladen – sie erscheinen automatisch in der Galerie.
+Dateinamen mit Datum beginnen, z. B. 2026-10-14-minga.jpg – dann steht das Neueste vorne.
+Bilder vorher auf ca. 1600 px Breite verkleinern (unter 500 KB).
+Dateien, die mit _ beginnen (wie diese), werden nicht veröffentlicht.

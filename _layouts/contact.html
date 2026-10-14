@@ -1,0 +1,70 @@
+---
+layout: default
+---
+{%- assign t = site.data[page.lang].contact -%}
+{%- assign c = site.contact -%}
+{% include page-hero.html hero=t.hero %}
+
+<section class="section">
+  <div class="container split split--form">
+    <div class="panel">
+      <h2>{{ t.form.title }}</h2>
+      {%- if c.form_endpoint and c.form_endpoint != "" %}
+      <form class="form" id="contact-form" action="{{ c.form_endpoint }}" method="post">
+        <input type="hidden" name="_language" value="{{ page.lang }}">
+      {%- else %}
+      <form class="form" id="contact-form" action="mailto:{{ c.email }}" method="post" enctype="text/plain" data-mailto="{{ c.email }}">
+      {%- endif %}
+        <div class="form__row">
+          <label for="f-name">{{ t.form.name }}</label>
+          <input id="f-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form__row">
+          <label for="f-email">{{ t.form.email }}</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form__row">
+          <label for="f-topic">{{ t.form.topic }}</label>
+          <select id="f-topic" name="topic">
+            {%- for topic in t.form.topics %}
+            <option value="{{ topic.value }}">{{ topic.label }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+        <div class="form__row">
+          <label for="f-dates">{{ t.form.dates }}</label>
+          <input id="f-dates" name="dates">
+        </div>
+        <div class="form__row">
+          <label for="f-message">{{ t.form.message }}</label>
+          <textarea id="f-message" name="message" rows="6" required></textarea>
+        </div>
+        <div class="form__hp" aria-hidden="true">
+          <label for="f-gotcha">Website</label>
+          <input id="f-gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+        </div>
+        <label class="form__check"><input type="checkbox" name="consent" required> <span>{{ t.form.consent }}</span></label>
+        <button class="btn" type="submit">{{ t.form.send }}</button>
+        {%- unless c.form_endpoint and c.form_endpoint != "" %}
+        <p class="form__note">{{ t.form.mailto_note }}</p>
+        {%- endunless %}
+        <p class="form__status" role="status" aria-live="polite" data-sent="{{ t.form.sent | escape }}"></p>
+      </form>
+    </div>
+    <div>
+      <h2 class="section-title">{{ t.direct.title }}</h2>
+      <ul class="contact-list">
+        <li><span aria-hidden="true">✉️</span> <span><small>{{ t.direct.email }}</small><a href="mailto:{{ c.email }}">{{ c.email }}</a></span></li>
+        {%- if c.whatsapp != "" %}
+        <li><span aria-hidden="true">💬</span> <span><small>{{ t.direct.whatsapp }}</small><a href="https://wa.me/{{ c.whatsapp }}" rel="noopener">{{ c.phone_display }}</a></span></li>
+        <li><span aria-hidden="true">📞</span> <span><small>{{ t.direct.phone }}</small><a href="tel:+{{ c.whatsapp }}">{{ c.phone_display }}</a></span></li>
+        {%- endif %}
+      </ul>
+      <h2 class="section-title">{{ t.location.title }}</h2>
+      <p>{{ t.location.text }}</p>
+      <p><a class="link-arrow" href="{{ t.location.map_url }}" rel="noopener">{{ t.location.map_link }} →</a></p>
+    </div>
+  </div>
+</section>
+
+{% include faq.html faq=t.faq alt=true %}

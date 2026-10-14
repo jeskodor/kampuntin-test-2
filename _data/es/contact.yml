@@ -1,0 +1,60 @@
+# Página de contacto – español
+hero:
+  eyebrow: Contacto
+  title: Escríbenos
+  lead: >-
+    ¿Preguntas sobre los tours, el voluntariado o una colaboración científica? Respondemos
+    personalmente, normalmente en pocos días. En la selva la señal es limitada: ten paciencia.
+form:
+  title: Enviar un mensaje
+  name: Nombre
+  email: Correo electrónico
+  topic: Tema
+  topics:          # value = interner Schlüssel (nicht ändern), label = angezeigter Text
+    - { value: tour, label: Tour }
+    - { value: voluntariado, label: Voluntariado }
+    - { value: investigacion, label: Investigación }
+    - { value: otro, label: Otro }
+  dates: Fechas que te interesan (opcional)
+  message: Mensaje
+  consent: Acepto que mis datos se usen para responder a mi mensaje.
+  send: Enviar
+  mailto_note: Al enviar se abrirá tu programa de correo con el mensaje preparado.
+  sent: Gracias. Te responderemos lo antes posible.
+direct:
+  title: Contacto directo
+  email: Correo
+  whatsapp: WhatsApp
+  phone: Teléfono
+location:
+  title: Dónde estamos
+  text: >-
+    Maikiuants está en la provincia de Morona Santiago, en la Amazonía sur del Ecuador, a unas
+    dos horas y media de [ciudad más cercana]. Te enviamos las indicaciones exactas para llegar
+    cuando confirmes tu viaje.
+  map_link: Ver en OpenStreetMap
+  map_url: "https://www.openstreetmap.org/?mlat=-3.119508&mlon=-78.265679#map=12/-3.11951/-78.26568"
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - q: ¿Cuánto tardan en responder?
+      a: >-
+        Normalmente pocos días. En la selva la señal es limitada, así que a veces tardamos un poco
+        más. Por WhatsApp suele ser más rápido.
+    - q: ¿En qué idiomas puedo escribir?
+      a: En español o en inglés. [Indicar otros idiomas si los hay.]
+    - q: ¿Cómo llego a Maikiuants?
+      a: >-
+        Desde Quito o Cuenca en bus hasta [ciudad más cercana] y de allí unas dos horas y media
+        hasta la comunidad. Para tours y voluntariado organizamos el último tramo contigo.
+    - q: ¿Puedo visitar Maikiuants sin hacer un tour?
+      a: >-
+        Las visitas se acuerdan siempre antes con la comunidad. Escríbenos y vemos qué es
+        posible.
+    - q: ¿Puedo cambiar o cancelar una reserva?
+      a: "[Indicar las condiciones de cambio y cancelación.]"
+    - q: ¿Cómo puedo apoyar sin viajar?
+      a: >-
+        Compartiendo nuestras novedades, comprando nuestro libro o ayudando con traducción,
+        fotografía o redes sociales. [Indicar si hay una forma de donar.]
